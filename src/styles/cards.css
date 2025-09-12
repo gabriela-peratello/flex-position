@@ -1,21 +1,15 @@
 
-.speaker-card img{
-    border-width: 25px;
-    width: 100%;
-    display: block;
-    width: 200px;
-    height: 200px;
-  }
-  
-  .speaker-card{
+.speaker-card{
 
     /*BORDAS*/
-    border: 2px;
-    border-style: double;
+    border: 6px;
+    border-style: solid;
     border-color: black;
     border-radius: 10px;
 
     font-size:medium;
+
+    max-width: 250px;
 
 
     flex-direction: column;
@@ -24,6 +18,22 @@
     text-align:center;
   }
 
+.speaker-card :hover{
+    transform: scale(1.2);
+
+}
+
+  .speaker-card img{
+    width: 100%;
+    display: block;
+  }
+
 .speaker-card figcaption{
-    text-align: justify;
+    padding: 10px;
+}
+
+.speaker-card h3{
+    margin: 5px 0;
+    font-size: 18px;
+    text-emphasis: center;
 }
