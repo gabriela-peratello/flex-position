@@ -2,12 +2,38 @@
 @import url(./cards.css);
 @import url(./footer.css);
 
-.content-nosso-time, .content-produtos, .content-faq, .content-contato{
-  
+
+/*EFEITO SUAVE DE TRANSIÇÃO ENTRE AS PÁGINAS*/
+html{
+  scroll-behavior: smooth;
 }
 
 
 
+.content-nosso-time, .content-produtos, .content-faq, .content-contato{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #e1e4ee;
+}
+
+.content-nosso-time{
+  background-color: rgb(150, 175, 204);
+}
+
+.content-produtos{
+
+}
+
+.content-faq{
+
+}
+
+.content-contato{
+}
 
 
 
