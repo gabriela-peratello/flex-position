@@ -1,0 +1,29 @@
+
+.speaker-card img{
+    border-width: 25px;
+    width: 100%;
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .speaker-card{
+
+    /*BORDAS*/
+    border: 2px;
+    border-style: double;
+    border-color: black;
+    border-radius: 10px;
+
+    font-size:medium;
+
+
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    text-align:center;
+  }
+
+.speaker-card figcaption{
+    text-align: justify;
+}
