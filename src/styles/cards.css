@@ -1,54 +1,57 @@
 
 .speaker-card{
 
-    /*BORDAS*/
-    border: 2px;
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
+    display: flex;
+
+    /*BORDA*/
     border-radius: 10px;
     border: none;
-  
-    
-     /*TAMANHO DA BORAD*/
+     /*TAMANHO DA BORDA*/
      max-width: 290px;
 
-     font-size:medium;
+    /* COR DE FUNDO DOS CARDS */
+    /* TIRAR NOS PRODUTOS */
+    background-color: rgb(250, 250, 255); 
+
+    /* ESPAÇAMENTO ENTRE LINHAS: GAP - CONFIG DOS TEXTOS*/
+     gap: 15px;
+     
+     flex-direction:column;
    
-
-    background-color: rgb(250, 250, 255);
-
-
-    flex-direction: column;
-    display: flex;
-    gap: 15px;
-    text-align:center;
+    /* ENCAIXA A IMAGEM CERTINHO */
+    overflow: hidden;
   }
 
 .speaker-card:hover{
+  /* EFEITO HOVER NOS CARDS */
     transform: scale(1.2);
     cursor: pointer;
-    color: rgb(255, 255, 255);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.445); 
+   
 }
 
   .speaker-card img{
     width: 100%;
     display: block;
-    border-radius: 10px;
   }
 
 .speaker-card figcaption{
     padding: 10px;
-    background-color: rgb(255, 255, 255);
-    color: black;
+    color: rgba(0, 0, 0, 0.463);
     text-align: justify;
     border-radius: 10px;
 }
 
 .speaker-card h3{
+  /* TEXTOS DOS CARDS */
     padding: 25px 0;
-    font-size: 18px;
-    text-emphasis: center;
-    color: black;  
+    font-size: 28px;
+    text-align:center;
+    color: rgb(1, 52, 94);  
     border-radius: 10px; 
+    
+}
+
+.speaker-card P{
+  color: black;
+  font-size:medium;
 }

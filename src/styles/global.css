@@ -28,7 +28,7 @@ html{
   margin: 0;
   padding: 0;
   background: 
-      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+      linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.245)), 
       url("../assets/images/fundo.png") no-repeat center center fixed;
   background-size: cover;
   }
@@ -38,7 +38,7 @@ html{
   margin: 0;
   padding: 0;
   background: 
-      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+      linear-gradient(rgba(0,0,0,0.5), hsla(0, 0%, 0%, 0.245)), 
       url("../assets/images/fundo02.png") no-repeat center center fixed;
   background-size: cover;
 
@@ -48,7 +48,7 @@ html{
   margin: 0;
   padding: 0;
   background: 
-      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+      linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.245)), 
       url("../assets/images/fundo03.png") no-repeat center center fixed;
   background-size: cover;
 }
@@ -57,18 +57,10 @@ html{
   margin: 0;
   padding: 0;
   background: 
-      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+      linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.245)), 
       url("../assets/images/fundo04.png") no-repeat center center fixed;
   background-size: cover;
 }
-
-
-
-
-
-
-
-
 
 
 .main-content{
