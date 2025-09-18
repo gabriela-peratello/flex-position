@@ -9,7 +9,7 @@
   
     /* altura do header e cores */
     height: 8vh; 
-    background-color: #004488c1;
+    background-color: #004488;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.101);
     
     /* Flex para alinhar os itens horizontalmente */
@@ -22,6 +22,7 @@
     justify-content: space-between; 
     padding: 0 20px;
     z-index: 1000; /* fica acima de outros elementos */
+
   }
   
   /* Controla o tamanho da imagem da logo */
@@ -37,6 +38,7 @@
     display: flex;
     /* espaço entre os itens */
     gap: 20px; 
+  
   }
   
    /* Itens do menu: estilo botão */
@@ -48,12 +50,13 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     /* evita seleção do texto no clique */
     user-select: none; 
+    color: white;
   }
   
   /* Efeito hover nos itens do menu */
   .header-menu li:hover {
     background-color: #007bff; 
-    color: #fff;
+    color: #000000;
     box-shadow: 0 4px 8px rgba(0, 123, 255, 0.601);
   }
   
@@ -85,7 +88,7 @@
     /* Campo de busca: padding, bordas arredondadas e tamanho */
    .header-search input {
     padding: 7px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 20px;
     outline: none;
     transition: border-color 0.3s ease;
@@ -95,6 +98,6 @@
   
   /* Efeito foco no campo de busca */
   .header-search input:focus {
-    border-color: #007bff;
+    border-color: #ffffff;
     box-shadow: 0 0 8px #000000;
   }
