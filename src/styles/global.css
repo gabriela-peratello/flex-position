@@ -73,7 +73,7 @@ html{
   background-color: rgb(228, 236, 255)
 }
 
-.whatsapp-button{
+.whatsapp button{
   position: fixed;
   bottom: 100px;
   right: 96px;
@@ -81,11 +81,11 @@ html{
   z-index: 1000;
 }
 
-.whatsapp-button img {
+.whatsapp button img {
   height: 40px;
 }
 
-.whatsapp-button:hover{
+.whatsapp button:hover{
   transform: scale(1.5);
   cursor: pointer;
 }

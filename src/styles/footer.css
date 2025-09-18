@@ -34,8 +34,14 @@
 .footer-info{
     width: 100%;
     display: flex;
+
     justify-content: center;
     align-items: center;
+}
+
+.footer-info:hover{
+    transform: scale(2);
+    cursor: pointer;
 }
 
 .footer-social{
