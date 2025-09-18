@@ -7,15 +7,17 @@
     width: 100%;
   
   
-    /* altura do header */
+    /* altura do header e cores */
     height: 8vh; 
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.101);
     
     /* Flex para alinhar os itens horizontalmente */
     display: flex;
+
     /* alinha verticalmente ao centro */
     align-items: center; 
+
     /* espaço entre logo, menu e login */
     justify-content: space-between; 
     padding: 0 20px;
@@ -24,7 +26,7 @@
   
   /* Controla o tamanho da imagem da logo */
   .header-logo img {
-    height: 60px;
+    height: 45px;
   }
   
   /* Menu: lista horizontal usando flex */
@@ -88,7 +90,7 @@
     outline: none;
     transition: border-color 0.3s ease;
     width: 180px;
-    color: #007bff;
+    color: #000000;
   }
   
   /* Efeito foco no campo de busca */
