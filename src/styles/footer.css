@@ -1,26 +1,31 @@
 .footer-content{
+    /* CONFIGURANDO POSIÇÃO */
     position: fixed;
-    top: 92vh;
+    bottom: 0;
     
+    /* DISPLAY, OCUPAÇÃO E ALTURA */
     display: flex;
     width: 100%;
     height: 8vh;
 
+    /* CENTRALIZANDO E COLOCANDO ESPAÇAMENTO */
     align-items: center;
     justify-content: space-between;
 
+    /* CAMADA, BORDA INTERIRO */
     background-color: white;
     padding: 0 20px;
     z-index: 1000;
 }
 
 .footer-address{
+    /* ADDRESS: ENDEREÇO */
     width: 100%;
-    color: blueviolet;
-    
+    color: rgb(0, 0, 0);    
 }
 
 .footer-address_title{
+    /* CONFIGURAÇÕES DO TEXTO */
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 10px;

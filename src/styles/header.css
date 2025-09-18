@@ -9,7 +9,7 @@
   
     /* altura do header e cores */
     height: 8vh; 
-    background-color: #ffffff;
+    background-color: #004488c1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.101);
     
     /* Flex para alinhar os itens horizontalmente */
@@ -54,7 +54,7 @@
   .header-menu li:hover {
     background-color: #007bff; 
     color: #fff;
-    box-shadow: 0 4px 8px rgba(0,123,255,0.4);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.601);
   }
   
   /* Área de login: ícone e busca alinhados */
@@ -96,5 +96,5 @@
   /* Efeito foco no campo de busca */
   .header-search input:focus {
     border-color: #007bff;
-    box-shadow: 0 0 8px #668cff;
+    box-shadow: 0 0 8px #000000;
   }
