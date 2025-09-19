@@ -1,3 +1,4 @@
+
 .footer-content{
     /* CONFIGURANDO POSIÇÃO */
     position: fixed;
@@ -21,7 +22,7 @@
 .footer-address{
     /* ADDRESS: ENDEREÇO */
     width: 100%;
-    color: #ffffff;    
+    color: #ffffff;  
 }
 
 .footer-address_title{
